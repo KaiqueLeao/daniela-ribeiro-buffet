@@ -130,6 +130,20 @@ jQuery(function($){
       autoplay: true,
       speed: 500,      
       cssEase: 'linear'
+    });   
+
+  /* ----------------------------------------------------------- */
+  /*   GALLEY SLIDE (SLICK SLIDER)
+  /* ----------------------------------------------------------- */    
+
+    jQuery('.mu-galley-slider').slick({
+      dots: true,      
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      speed: 500,  
+      slidesToShow: 3,    
+      cssEase: 'infinite'
     });       
 
   /* ----------------------------------------------------------- */
